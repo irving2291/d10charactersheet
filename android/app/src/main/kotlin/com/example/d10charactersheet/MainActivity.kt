@@ -1,4 +1,4 @@
-package com.example.d10charactersheet
+package com.dragonsden.v5charactersheet
 
 import io.flutter.embedding.android.FlutterActivity
 

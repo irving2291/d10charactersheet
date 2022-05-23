@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.d10charactersheet">
+    package="com.dragonsden.v5charactersheet">
    <application
         android:label="d10charactersheet"
         android:name="${applicationName}"
