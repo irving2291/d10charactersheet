@@ -121,6 +121,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "10.1.0"
   get_it:
     dependency: "direct main"
     description:
@@ -170,13 +177,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.4"
-  meedu:
-    dependency: "direct main"
-    description:
-      name: meedu
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "7.0.0"
   meta:
     dependency: transitive
     description:

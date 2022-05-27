@@ -1,3 +1,4 @@
+import 'package:d10charactersheet/app/ui/pages/errors/error_page.dart';
 import 'package:d10charactersheet/app/ui/routes/app_routes.dart';
 import 'package:d10charactersheet/app/ui/routes/routes.dart';
 import 'package:flutter/material.dart';
@@ -16,8 +17,13 @@ class MyApp extends StatelessWidget {
       title: 'd 10 character sheet',
       initialRoute: Routes.splash,
       debugShowCheckedModeBanner: false,
+      onUnknownRoute: (RouteSettings settings) {
+        return MaterialPageRoute(
+          settings: settings,
+          builder: (BuildContext context) => const ErrorPage(),
+        );
+      },
       routes: appRoutes,
-      navigatorObservers: [],
       theme: ThemeData(
         useMaterial3: true,
         primarySwatch: Colors.blue,
